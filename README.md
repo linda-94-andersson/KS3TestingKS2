@@ -9,75 +9,62 @@
   ```
   npm run dev
   ```
+  ```
+  npm run test
+  ```
+  ```
+  npm run coverage
+  ```
 
 ## Skills used for this project
-* React
-* React Context
-* Typescript
-* Javascript
-* JSON
-* .env
-* Chakra-ui
-* Dayjs
-* Axios
-* CSS
-* HTML 
-* Vite
+* WORK IN PROGRESS
+* Vitest
+* Playwright
+* React-testing-lib
 
 ## Requirements
 
-# Kunskapskontroll 2 - Invoice-dashboard
+# Kunskapskontroll 3: Säkra våra applikationer med Tester
 
-## En användare ska kunna:
-- Se en lista på tidtagningar de senaste 30 dagarna
-  (Har du byggt in dessa i tasks: tasks som loggat tid de senaste 30 dagarna) (X)
-- Se en lista på alla tidtagningar (X)
-- Se en lista på projekt (X)
-- Se en lista på tasks (X)
-- Ta bort en tidtagning (X)
-- Ta bort en task (X)
-- Ta bort ett projekt (X)
-- Sätta ett timpris på ett projekt (X)
-- Skapa en "faktura" för ett valt projekt och välja tasks som "fakturan" ska innehålla (X)
-- Se en lista på "fakturor" och status (X)
-- Se en överblicks-sida som visar: (X)
-  - Antal projekt (X)
-  - Antal tasks (X)
-  - Antal "fakturor" (X)
-  - Tid som loggats de senaste 30 dagarna (X)
-  - Antalet kronor som fakturerats det senaste året (X)
+## Instruktioner
+I Kunskapskontroll 1 och 2 byggde ni både en tidtagnings-app och en admin-interface, som gör att man kan logga tid och få en bättre överblick av applikationen.
+
+Denna gången kommer ni inte skriva en ny applikation - utan skriva tester för era två applikationer, för att säkerställa att de fungerar som det är tänkt.
+
+Notera att ni kan behöva identifiera och bryta ut återanvändbara delar som borde vara komponenter, för att kunna skriva Unit-tester. 
+T.ex. en lista på projekt som mappas ut - den borde kunna vara en återanvändbar komponent.
+
+## Testerna ska skrivas med:
+- Jest (eller Vitest)
+- RTL
+- Playwright
+
+## Typer av tester vi kommer skriva:
+- Unit/komponent-tester (Jest/Vitest)
+  (En enskild del, t.ex. en komponent eller en hook)
+- Integrations-tester (RTL, Jest/Vitest)
+  (Flera "units" eller delar tillsammans)
+- E2E-tester (Playwright)
+  (Från start till slut, end to end)
+
+## Tester för K2:
+- minst 5 Unit/komponent-tester ()
+- Integrations-tester som testar så följande fungerar enligt specifikationen: ()
+  - Listan på Projects (1. går att se, 2. ta bort) ()
+  - Listan på Tasks (1. går att se,  2. ta bort) ()
+  - Listan på Invoices (1. går att se, 2. går att skapa) ()
+- 1 E2E-test som testar hela applikationen från start till slut ()
 
 ## För att uppnå Godkänt är kraven att:
-- Byggd med Typescript, React som Frontend och json-server. (X)
+- Du uppfyller "Tester för K1" ()
 
-- Applikationen ska använda React Context som "Store" för applikations-bred data. (X)
+- Du använder Jest/Vitest, RTL och Playwright för dina tester ()
 
-- Samtliga krav under "En användare ska kunna" är uppfyllda. (X)
+- Testerna går igenom (naturligtvis) ()
 
-- Applikationen ska vara byggd med responsiv design i åtanke. (X)
+- Testerna faktiskt testar något (och inte är tomma statements). ()
 
-- En faktura ska innehålla (X)
-  - Status (Ej betald, betald, försenad) (X)
-  - Förfallodag (30 dagar från datumet vi skapade den) (X)
-  - Summa (tid x projektets timpris) (X)
-  - Kundens namn (X)
+## För att uppnå Väl Godkänt är kraven att:
+- Du använder Mocks för alla API-anrop som görs ()
 
-- Listorna ska vara presenterade som tabeller med följande kolumner: (X)
-  - Tasks: Namn, Projektets namn (X)
-  - Projekt: Namn, antal tasks (X)
-  - Fakturor: Kund, status, förfallodatum, summa (X)
-
-- Applikationen ska inte innehålla några "@ts-ignore", typfel och inga implicita any. (X)
-
-## För att uppnå Väl Godkänt är kraven att 2 av följande 4 är uppfyllda:
-- Applikationen ska inte heller innehålla några explicita any. (X)
-
-- Kunna välja att avrunda tiden uppåt på tasks när man skapar en faktura till närmsta [1 min, 5 min, 15 min, 30 min, 1h].
-(Avrundningen ska ske på varje individuell task, inte på hela fakturan) (X)
-
-- Lägg till stöd för drag n drop för att ändra ordningen på överblicks-infon på överblicks-sidan.
-Samt att kunna visa/dölja info-delar på överblicks-sidan. ()
-
-- Skapa grafer på överblicks-infon för att visa: ()
-  - En "Line chart" som visar totala mängden tid som loggats de senaste 7 dagarna (X)
-  - Valfri chart som visar beloppet som fakturerats i år (per månad) ()
+- Har över 85% code coverage i K1 och K2 ()
