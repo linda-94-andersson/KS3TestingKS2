@@ -1,6 +1,6 @@
 import { rest } from "msw";
 
-export const buildHandlers = (config) => {
+export const buildHandlers = (config: MockType) => {
   const {
     baseUrl,
     idUser,

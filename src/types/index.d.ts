@@ -40,27 +40,27 @@ type Invoice = {
 
 type MinutePrecision = 1 | 5 | 15 | 30 | 60;
 
-type MockType = {
+declare type MockType = {
   baseUrl: string;
-  idUser: string;
-  idProject: string;
-  idTask: string;
-  idTimelog: string;
-  nameUser: string;
-  nameProject: string;
-  nameTask: string;
-  userId: string;
-  projectId: string;
-  createdDate: number;
-  startTime: number;
-  endTime: number;
-  taskId: string;
-  color: string;
-  idInvoice: string;
-  status: string;
-  due_date: number;
-  sum: number;
-  customer_name: string;
-  created_date: number;
-  hourly_rate: number;
+  idUser?: string;
+  idProject?: string;
+  idTask?: string;
+  idTimelog?: string;
+  nameUser?: string;
+  nameProject?: string;
+  nameTask?: string;
+  userId?: string;
+  projectId?: string;
+  createdDate?: number;
+  startTime?: number;
+  endTime?: number;
+  taskId?: string;
+  color?: string;
+  idInvoice?: string;
+  status?: string;
+  due_date?: number;
+  sum?: number;
+  customer_name?: string;
+  created_date?: number;
+  hourly_rate?: number;
 };
