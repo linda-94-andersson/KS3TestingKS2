@@ -15,9 +15,11 @@
   ```
   npm run coverage
   ```
+  ```
+  npm run play-test
+  ```
 
 ## Skills used for this project
-* WORK IN PROGRESS
 * Vitest
 * Playwright
 * React-testing-lib
@@ -56,7 +58,7 @@ T.ex. en lista på projekt som mappas ut - den borde kunna vara en återanvändb
 - 1 E2E-test som testar hela applikationen från start till slut ()
 
 ## För att uppnå Godkänt är kraven att:
-- Du uppfyller "Tester för K1" ()
+- Du uppfyller "Tester för K2" ()
 
 - Du använder Jest/Vitest, RTL och Playwright för dina tester ()
 
