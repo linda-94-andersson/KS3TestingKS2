@@ -50,7 +50,7 @@ T.ex. en lista på projekt som mappas ut - den borde kunna vara en återanvändb
   (Från start till slut, end to end)
 
 ## Tester för K2:
-- minst 5 Unit/komponent-tester ()
+- minst 5 Unit/komponent-tester (X)
 - Integrations-tester som testar så följande fungerar enligt specifikationen: ()
   - Listan på Projects (1. går att se, 2. ta bort) ()
   - Listan på Tasks (1. går att se,  2. ta bort) ()
