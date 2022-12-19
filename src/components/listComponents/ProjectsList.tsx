@@ -65,7 +65,11 @@ const ProjectsList = () => {
                   <Tr key={p.id}>
                     <Td>
                       {p.name}
-                      <Button variant="link" onClick={() => handleDelete(p.id)}>
+                      <Button
+                        aria-label="delButton"
+                        variant="link"
+                        onClick={() => handleDelete(p.id)}
+                      >
                         <Icon as={RiDeleteBack2Line} w={25} h={25} />
                       </Button>
                     </Td>
