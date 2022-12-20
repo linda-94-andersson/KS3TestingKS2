@@ -111,10 +111,10 @@ const Selected = ({
         required
         name="projects"
         id="projects"
+        placeholder="Pick a project"
         value={selectedProject}
         onChange={handleSelectedProject}
       >
-        <option value="">Pick a project</option>
         {projectValue.projects ? (
           projectValue.projects.map((p: Project) => (
             <option key={p.id} value={p.id}>
@@ -126,38 +126,40 @@ const Selected = ({
         )}
       </Select>
       <br />
+      <FormLabel style={{ marginLeft: 10 }}>Select task(s)</FormLabel>
+      <Box style={{ marginLeft: 10 }}>
+        <Stack spacing={5} direction="column">
+          {taskValue.tasks &&
+            taskValue.tasks
+              // .filter((t: Task) => t.projectId === selectedProject)
+              .map((t: Task) => (
+                <Checkbox
+                  colorScheme="blue"
+                  key={t.id}
+                  value={t.id}
+                  onChange={handleSelectedTask}
+                >
+                  {t.name}
+                </Checkbox>
+              ))}
+        </Stack>
+        <br />
+        <RadioGroup
+          onChange={handleSelectRound}
+          value={roundPrecision.toString()}
+        >
+          <Stack direction="row">
+            <Radio value={"0"}>Not rounded</Radio>
+            <Radio value={"1"}>1</Radio>
+            <Radio value={"5"}>5</Radio>
+            <Radio value={"15"}>15</Radio>
+            <Radio value={"30"}>30</Radio>
+            <Radio value={"60"}>60</Radio>
+          </Stack>
+        </RadioGroup>
+      </Box>
       {selectedProject.length !== 0 ? (
-        <>
-          <FormLabel style={{ marginLeft: 10 }}>Select task(s)</FormLabel>
-          <Box style={{ marginLeft: 10 }}>
-            <Stack spacing={5} direction="column">
-              {taskValue.tasks &&
-                taskValue.tasks
-                  .filter((t: Task) => t.projectId === selectedProject)
-                  .map((t: Task) => (
-                    <Checkbox
-                      colorScheme="blue"
-                      key={t.id}
-                      value={t.id}
-                      onChange={handleSelectedTask}
-                    >
-                      {t.name}
-                    </Checkbox>
-                  ))}
-            </Stack>
-            <br />
-            <RadioGroup onChange={handleSelectRound} value={roundPrecision}>
-              <Stack direction="row">
-                <Radio value={0}>Not rounded</Radio>
-                <Radio value={1}>1</Radio>
-                <Radio value={5}>5</Radio>
-                <Radio value={15}>15</Radio>
-                <Radio value={30}>30</Radio>
-                <Radio value={60}>60</Radio>
-              </Stack>
-            </RadioGroup>
-          </Box>
-        </>
+        <></>
       ) : (
         <>
           <FormLabel style={{ marginLeft: 10 }}>
