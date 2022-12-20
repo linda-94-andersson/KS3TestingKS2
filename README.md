@@ -51,10 +51,10 @@ T.ex. en lista på projekt som mappas ut - den borde kunna vara en återanvändb
 
 ## Tester för K2:
 - minst 5 Unit/komponent-tester (X)
-- Integrations-tester som testar så följande fungerar enligt specifikationen: ()
+- Integrations-tester som testar så följande fungerar enligt specifikationen: (X)
   - Listan på Projects (1. går att se, 2. ta bort) (X)
   - Listan på Tasks (1. går att se,  2. ta bort) (X)
-  - Listan på Invoices (1. går att se, 2. går att skapa) ()
+  - Listan på Invoices (1. går att se, 2. går att skapa) (X)
 - 1 E2E-test som testar hela applikationen från start till slut ()
 
 ## För att uppnå Godkänt är kraven att:
@@ -62,11 +62,11 @@ T.ex. en lista på projekt som mappas ut - den borde kunna vara en återanvändb
 
 - Du använder Jest/Vitest, RTL och Playwright för dina tester ()
 
-- Testerna går igenom (naturligtvis) ()
+- Testerna går igenom (naturligtvis) (X)
 
-- Testerna faktiskt testar något (och inte är tomma statements). ()
+- Testerna faktiskt testar något (och inte är tomma statements). (X)
 
 ## För att uppnå Väl Godkänt är kraven att:
-- Du använder Mocks för alla API-anrop som görs ()
+- Du använder Mocks för alla API-anrop som görs (X)
 
-- Har över 85% code coverage i K1 och K2 ()
+- Har över 85% code coverage i K1 och K2 (X)
