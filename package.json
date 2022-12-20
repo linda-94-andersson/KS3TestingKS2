@@ -11,7 +11,7 @@
     "prepare": "husky install",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "play-test": "npx playwright test e2e.spec.js"
+    "play-test": "npx playwright test e2e.spec.ts"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
