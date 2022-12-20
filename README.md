@@ -55,12 +55,12 @@ T.ex. en lista på projekt som mappas ut - den borde kunna vara en återanvändb
   - Listan på Projects (1. går att se, 2. ta bort) (X)
   - Listan på Tasks (1. går att se,  2. ta bort) (X)
   - Listan på Invoices (1. går att se, 2. går att skapa) (X)
-- 1 E2E-test som testar hela applikationen från start till slut ()
+- 1 E2E-test som testar hela applikationen från start till slut (X)
 
 ## För att uppnå Godkänt är kraven att:
-- Du uppfyller "Tester för K2" ()
+- Du uppfyller "Tester för K2" (X)
 
-- Du använder Jest/Vitest, RTL och Playwright för dina tester ()
+- Du använder Jest/Vitest, RTL och Playwright för dina tester (X)
 
 - Testerna går igenom (naturligtvis) (X)
 
