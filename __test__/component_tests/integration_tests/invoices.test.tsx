@@ -3,11 +3,11 @@ import { describe, expect, it } from "vitest";
 import { screen, fireEvent, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom";
-import { customRender } from "../test-utils";
+import { customRender } from "../../test-utils";
 import { setupServer } from "msw/node";
-import { buildHandlers } from "../../__mock__/handlers";
-import List from "../../src/routes/List";
-import Invoice from "../../src/routes/Invoice";
+import { buildHandlers } from "../../../__mock__/handlers";
+import List from "../../../src/routes/List";
+import Invoice from "../../../src/routes/Invoice";
 
 const config = {
   baseUrl: `http://${import.meta.env.VITE_URL_KEY}`,

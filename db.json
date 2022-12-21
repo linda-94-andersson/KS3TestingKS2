@@ -33,7 +33,7 @@
       "name": "Testing"
     },
     {
-      "id": "4b8b49b7-8bca-41d1-9b44-ca7688e0cc4f",
+      "id": "e6ad8c02-2fb5-41f7-a8f9-5a4acdbd3e2b",
       "name": "Test me"
     }
   ],
@@ -50,7 +50,7 @@
       "name": "TS-Project",
       "color": "#5de3deff",
       "userId": "71585db0-7ac6-43df-a4ef-2f178803723f",
-      "hourly_rate": 500
+      "hourly_rate": 99
     },
     {
       "id": "1383abcc-761d-41bd-aef0-2ee7675ebcef",
@@ -97,12 +97,6 @@
       "projectId": "daab98bb-3c49-4438-8dd6-368fee1f253b"
     },
     {
-      "id": "7b2b5da0-b1c9-4e38-85fd-cd6b26eb218b",
-      "name": "Delete me",
-      "createdDate": 1671215351924,
-      "projectId": "daab98bb-3c49-4438-8dd6-368fee1f253b"
-    },
-    {
       "id": "b888f698-40f2-41d8-912b-a593a16185e2",
       "name": "Adding again",
       "createdDate": 1671215524705,
@@ -112,6 +106,18 @@
       "id": "e49594b7-eaf2-4868-9f75-71cd7ac9d2b3",
       "name": "Delete me",
       "createdDate": 1671215525157,
+      "projectId": "daab98bb-3c49-4438-8dd6-368fee1f253b"
+    },
+    {
+      "id": "d48b471b-b38d-4437-be78-6b06af728882",
+      "name": "Adding again",
+      "createdDate": 1671548757291,
+      "projectId": "daab98bb-3c49-4438-8dd6-368fee1f253b"
+    },
+    {
+      "id": "277d0782-0b24-441a-8d2b-135c4d7e6404",
+      "name": "Delete me",
+      "createdDate": 1671548757786,
       "projectId": "daab98bb-3c49-4438-8dd6-368fee1f253b"
     }
   ],
@@ -219,22 +225,22 @@
       "taskId": "87dfe155-38cd-4a97-8867-7e8aef541e65"
     },
     {
-      "id": "c599f0fc-ea2d-42fb-9041-300015ade420",
-      "startTime": 1671215352898,
-      "endTime": 1671215352978,
-      "taskId": "7b2b5da0-b1c9-4e38-85fd-cd6b26eb218b"
-    },
-    {
       "id": "ba386649-7ce8-4235-ac93-df39838e4935",
       "startTime": 1671215525627,
       "endTime": 1671215525683,
       "taskId": "b888f698-40f2-41d8-912b-a593a16185e2"
     },
     {
-      "id": "7064fb9f-67a6-42e5-adcd-05cd06eb2ae6",
-      "startTime": 1671215526164,
-      "endTime": 1671215526252,
-      "taskId": "e49594b7-eaf2-4868-9f75-71cd7ac9d2b3"
+      "id": "d3a3f923-995b-4697-853d-86aefd696691",
+      "startTime": 1671548758244,
+      "endTime": 1671548758319,
+      "taskId": "d48b471b-b38d-4437-be78-6b06af728882"
+    },
+    {
+      "id": "b9628dd7-51b9-4158-bac4-c286630909c5",
+      "startTime": 1671548758804,
+      "endTime": 1671548758943,
+      "taskId": "277d0782-0b24-441a-8d2b-135c4d7e6404"
     }
   ],
   "invoices": [
@@ -269,6 +275,318 @@
       "sum": 200,
       "customer_name": "NewRound Time",
       "created_date": 1669305749352
+    },
+    {
+      "id": "efb05eb0-b631-4d54-9e8d-640b2a308521",
+      "status": "Unpaid",
+      "due_date": 1674139195767,
+      "sum": 25,
+      "customer_name": "Exempel faktura",
+      "created_date": 1671547198155
+    },
+    {
+      "id": "3f28afde-4b8e-4b02-8e41-38bbac9b47f0",
+      "status": "Unpaid",
+      "due_date": 1674139261273,
+      "sum": 25,
+      "customer_name": "Testing",
+      "created_date": 1671547264368
+    },
+    {
+      "id": "390ff12b-cfe2-438f-bd62-a8c5ca31c45b",
+      "status": "Unpaid",
+      "due_date": 1674139903872,
+      "sum": 125,
+      "customer_name": "Testing",
+      "created_date": 1671547904297
+    },
+    {
+      "id": "da61be46-78e1-4418-8cd2-704664836044",
+      "status": "Unpaid",
+      "due_date": 1674139907155,
+      "sum": 125,
+      "customer_name": "Testing",
+      "created_date": 1671547907641
+    },
+    {
+      "id": "8543b532-f8b9-4b0a-9b28-441b35c4bb8e",
+      "status": "Unpaid",
+      "due_date": 1674139912376,
+      "sum": 125,
+      "customer_name": "Testing",
+      "created_date": 1671547913340
+    },
+    {
+      "id": "31c4b065-a1f1-4185-929a-8b67586e20a6",
+      "status": "Unpaid",
+      "due_date": 1674140089675,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548090237
+    },
+    {
+      "id": "d5b3cb16-99fb-458b-95f3-90869e031503",
+      "status": "Unpaid",
+      "due_date": 1674140093875,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548094399
+    },
+    {
+      "id": "436a7c30-34bc-4088-9e82-f043bbd15b3a",
+      "status": "Unpaid",
+      "due_date": 1674140098655,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548099424
+    },
+    {
+      "id": "dc337ba1-d60d-47a9-9671-7d8c355479a9",
+      "status": "Unpaid",
+      "due_date": 1674140144798,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548145292
+    },
+    {
+      "id": "9c5ecb14-9c8f-45e7-9cfe-78a96e74cbd0",
+      "status": "Unpaid",
+      "due_date": 1674140148472,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548149010
+    },
+    {
+      "id": "99cb3a62-bdd3-4b9e-ac80-b90471ca7b7d",
+      "status": "Unpaid",
+      "due_date": 1674140154422,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548155390
+    },
+    {
+      "id": "5d83ed15-f6b8-4e8b-9f5d-4c225c9fac2b",
+      "status": "Unpaid",
+      "due_date": 1674140233841,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548234370
+    },
+    {
+      "id": "54e4d318-64e7-476a-a4c7-7e31e77a8804",
+      "status": "Unpaid",
+      "due_date": 1674140237307,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548237995
+    },
+    {
+      "id": "47006063-cd85-4fed-b3b8-c69e1db4b714",
+      "status": "Unpaid",
+      "due_date": 1674140243540,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548244381
+    },
+    {
+      "id": "db0efac7-c5a3-438c-955d-d9c436714ec8",
+      "status": "Unpaid",
+      "due_date": 1674140320003,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548320438
+    },
+    {
+      "id": "7577bb0a-4ae4-4fb6-a0c2-c32e2f31fe14",
+      "status": "Unpaid",
+      "due_date": 1674140323139,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548323672
+    },
+    {
+      "id": "76b7406c-6bb3-4957-9c9c-5f90f881cdd2",
+      "status": "Unpaid",
+      "due_date": 1674140328209,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548329103
+    },
+    {
+      "id": "c225a086-8934-4193-aabf-401ff558d648",
+      "status": "Unpaid",
+      "due_date": 1674140883870,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548884273
+    },
+    {
+      "id": "9f4fc685-e23d-4be2-a8e4-4f222c62d045",
+      "status": "Unpaid",
+      "due_date": 1674140884322,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548884781
+    },
+    {
+      "id": "a8862744-f25d-411e-88c2-a51db672dcfb",
+      "status": "Unpaid",
+      "due_date": 1674140891377,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671548892111
+    },
+    {
+      "id": "03757eb2-21cd-417f-96bf-3165874b12fb",
+      "status": "Unpaid",
+      "due_date": 1674207392505,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615393134
+    },
+    {
+      "id": "d159aef7-1f33-487b-aa37-bffe95f5daf9",
+      "status": "Unpaid",
+      "due_date": 1674207396154,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615396926
+    },
+    {
+      "id": "a4bc11c4-1ca3-4ccf-9c18-3b8c4f7a81c7",
+      "status": "Unpaid",
+      "due_date": 1674207401349,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615402416
+    },
+    {
+      "id": "030677c4-295c-4169-9bbf-d8698c054ba3",
+      "status": "Unpaid",
+      "due_date": 1674207579661,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615580451
+    },
+    {
+      "id": "0e5cc395-24d4-41e2-8957-427890b54818",
+      "status": "Unpaid",
+      "due_date": 1674207583740,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615584427
+    },
+    {
+      "id": "8c6b45bd-3a2f-4ce0-9b35-23738af6f928",
+      "status": "Unpaid",
+      "due_date": 1674207589317,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615590783
+    },
+    {
+      "id": "05b9faae-f273-4d0f-99cd-bab8ce1c719b",
+      "status": "Unpaid",
+      "due_date": 1674207689459,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615690349
+    },
+    {
+      "id": "256d774a-23f9-4380-933e-054aa66e0dc1",
+      "status": "Unpaid",
+      "due_date": 1674207689528,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615690490
+    },
+    {
+      "id": "3bf2a6f5-6035-46e7-bca2-80231cbddd6f",
+      "status": "Unpaid",
+      "due_date": 1674207694670,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615695494
+    },
+    {
+      "id": "4523bf1e-0b66-4baa-8ecc-5375bce5665f",
+      "status": "Unpaid",
+      "due_date": 1674207730204,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615730870
+    },
+    {
+      "id": "a64505d5-4bcd-4bbb-88d6-a548ad9c57dc",
+      "status": "Unpaid",
+      "due_date": 1674207734302,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615734921
+    },
+    {
+      "id": "c1db353d-412b-4414-873c-d60fc8109191",
+      "status": "Unpaid",
+      "due_date": 1674207739563,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615740610
+    },
+    {
+      "id": "20067dbe-4e9e-44a6-92ad-15b051f85dc4",
+      "status": "Unpaid",
+      "due_date": 1674207971978,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615972600
+    },
+    {
+      "id": "d7aab101-3e65-4faa-99b6-cd0d468895b8",
+      "status": "Unpaid",
+      "due_date": 1674207975307,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615976031
+    },
+    {
+      "id": "49034291-9de6-47fc-ad6e-b38aacd5568b",
+      "status": "Unpaid",
+      "due_date": 1674207980677,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671615981782
+    },
+    {
+      "id": "0498b5d3-28c3-477f-bd4f-ba20bd4f6a5e",
+      "status": "Unpaid",
+      "due_date": 1674208036786,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671616037298
+    },
+    {
+      "id": "dcc33781-c65f-44d2-8cc5-e48b3c42a5d1",
+      "status": "Unpaid",
+      "due_date": 1674208039718,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671616040271
+    },
+    {
+      "id": "99e58c54-5c82-482d-803b-1af424be6abb",
+      "status": "Unpaid",
+      "due_date": 1674208251095,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671616251535
+    },
+    {
+      "id": "a31c94b0-5adf-40e2-8599-9c4f8bff3433",
+      "status": "Unpaid",
+      "due_date": 1674208250693,
+      "sum": 24.75,
+      "customer_name": "Testing",
+      "created_date": 1671616251083
     }
   ]
 }

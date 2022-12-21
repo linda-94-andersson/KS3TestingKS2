@@ -6,11 +6,11 @@ import {
   waitFor,
   waitForElementToBeRemoved,
 } from "@testing-library/react";
-import { customRender } from "../test-utils";
+import { customRender } from "../../test-utils";
 import "@testing-library/jest-dom";
 import { setupServer } from "msw/node";
-import { buildHandlers } from "../../__mock__/handlers";
-import List from "../../src/routes/List";
+import { buildHandlers } from "../../../__mock__/handlers";
+import List from "../../../src/routes/List";
 
 const config = {
   baseUrl: `http://${import.meta.env.VITE_URL_KEY}`,

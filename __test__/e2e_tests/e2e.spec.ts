@@ -8,12 +8,6 @@ test.only("e2e testing of K2", async ({ page }) => {
   await page.getByRole("button", { name: "Projects" }).click();
   await page.getByRole("button", { name: "Tasks" }).click();
   await page.getByRole("button", { name: "Tasks" }).click();
-  await page
-    .getByRole("button", { name: "Timelogs 2022-11-20 - 2022-12-20" })
-    .click();
-  await page
-    .getByRole("button", { name: "Timelogs 2022-11-20 - 2022-12-20" })
-    .click();
   await page.getByRole("button", { name: "Invoices" }).click();
   await page.getByRole("button", { name: "Invoices" }).click();
   await page.getByRole("button", { name: "Invoiced 2022" }).click();
